@@ -1,25 +1,25 @@
 let modInfo = {
-	name: "The ??? Tree",
-	id: "mymod",
+	name: "The Cheese Tree",
+	id: "cheesywheesy",
 	author: "nobody",
-	pointsName: "points",
+	pointsName: "milk",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
 	discordLink: "",
 	initialStartPoints: new Decimal (10), // Used for hard resets and new players
-	offlineLimit: 1,  // In hours
+	offlineLimit: 1000,  // In hours
 }
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
+	num: "0.1",
 	name: "Literally nothing",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
 	<h3>v0.0</h3><br>
-		- Added things.<br>
+		- Project started.<br>
 		- Added stuff.`
 
 let winText = `Congratulations! You have reached the end and beaten this game, but for now...`
